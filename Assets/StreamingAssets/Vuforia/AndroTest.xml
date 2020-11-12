@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="kinokoBOX.Right" size="0.090000 0.030000"/>
+        <ImageTarget name="kinokoBOX.Left" size="0.090000 0.030000"/>
+        <ImageTarget name="kinokoBOX.Back" size="0.150000 0.030000"/>
+        <ImageTarget name="kinokoBOX.Bottom" size="0.150000 0.090000"/>
+        <ImageTarget name="kinokoBOX.Front" size="0.150000 0.030000"/>
+        <ImageTarget name="kinokoBOX.Top" size="0.150000 0.090000"/>
+        <MultiTarget name="kinokoBOX">
+            <Part name="kinokoBOX.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="kinokoBOX.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="kinokoBOX.Front" translation="0 0 0.04500000178813934" rotation="AD: 1 0 0 0"/>
+            <Part name="kinokoBOX.Back" translation="0 0 -0.04500000178813934" rotation="AD: 0 1 0 180"/>
+            <Part name="kinokoBOX.Top" translation="0 0.014999999664723873 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="kinokoBOX.Bottom" translation="0 -0.014999999664723873 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
